@@ -1,12 +1,26 @@
 Package: SegFinder
 Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Version: 1.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    c(
+    person("Jianbin","Kong",role = c("aut", "cre"),email = "763123273@qq.com"),
+    person("Xue","Liu",role = "aut")
+    )
 Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+Imports:
+    openxlsx,
+    dplyr,
+    stringr,
+    magrittr,
+    data.table,
+    foreach,
+    doParallel,
+    abind,
+    tidyr,
+    Biostrings,
+    argparse
+URL:
